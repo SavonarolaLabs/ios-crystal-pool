@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8B7C25B2C396EAD000A66D9 /* crystal_poolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7C25A2C396EAD000A66D9 /* crystal_poolApp.swift */; };
+		D8B7C25D2C396EAD000A66D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7C25C2C396EAD000A66D9 /* ContentView.swift */; };
+		D8B7C25F2C396EAE000A66D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B7C25E2C396EAE000A66D9 /* Assets.xcassets */; };
+		D8B7C2622C396EAE000A66D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B7C2612C396EAE000A66D9 /* Preview Assets.xcassets */; };
+		D8B7C26C2C396EAE000A66D9 /* crystal_poolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7C26B2C396EAE000A66D9 /* crystal_poolTests.swift */; };
+		D8B7C2762C396EAE000A66D9 /* crystal_poolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7C2752C396EAE000A66D9 /* crystal_poolUITests.swift */; };
+		D8B7C2782C396EAE000A66D9 /* crystal_poolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7C2772C396EAE000A66D9 /* crystal_poolUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8B7C2682C396EAE000A66D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8B7C24F2C396EAD000A66D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8B7C2562C396EAD000A66D9;
+			remoteInfo = "crystal-pool";
+		};
+		D8B7C2722C396EAE000A66D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8B7C24F2C396EAD000A66D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8B7C2562C396EAD000A66D9;
+			remoteInfo = "crystal-pool";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8B7C2572C396EAD000A66D9 /* crystal-pool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "crystal-pool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B7C25A2C396EAD000A66D9 /* crystal_poolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crystal_poolApp.swift; sourceTree = "<group>"; };
+		D8B7C25C2C396EAD000A66D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8B7C25E2C396EAE000A66D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8B7C2612C396EAE000A66D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8B7C2672C396EAE000A66D9 /* crystal-poolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "crystal-poolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B7C26B2C396EAE000A66D9 /* crystal_poolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crystal_poolTests.swift; sourceTree = "<group>"; };
+		D8B7C2712C396EAE000A66D9 /* crystal-poolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "crystal-poolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B7C2752C396EAE000A66D9 /* crystal_poolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crystal_poolUITests.swift; sourceTree = "<group>"; };
+		D8B7C2772C396EAE000A66D9 /* crystal_poolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crystal_poolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8B7C2542C396EAD000A66D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B7C2642C396EAE000A66D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B7C26E2C396EAE000A66D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8B7C24E2C396EAD000A66D9 = {
+			isa = PBXGroup;
+			children = (
+				D8B7C2592C396EAD000A66D9 /* crystal-pool */,
+				D8B7C26A2C396EAE000A66D9 /* crystal-poolTests */,
+				D8B7C2742C396EAE000A66D9 /* crystal-poolUITests */,
+				D8B7C2582C396EAD000A66D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8B7C2582C396EAD000A66D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8B7C2572C396EAD000A66D9 /* crystal-pool.app */,
+				D8B7C2672C396EAE000A66D9 /* crystal-poolTests.xctest */,
+				D8B7C2712C396EAE000A66D9 /* crystal-poolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8B7C2592C396EAD000A66D9 /* crystal-pool */ = {
+			isa = PBXGroup;
+			children = (
+				D8B7C25A2C396EAD000A66D9 /* crystal_poolApp.swift */,
+				D8B7C25C2C396EAD000A66D9 /* ContentView.swift */,
+				D8B7C25E2C396EAE000A66D9 /* Assets.xcassets */,
+				D8B7C2602C396EAE000A66D9 /* Preview Content */,
+			);
+			path = "crystal-pool";
+			sourceTree = "<group>";
+		};
+		D8B7C2602C396EAE000A66D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D8B7C2612C396EAE000A66D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8B7C26A2C396EAE000A66D9 /* crystal-poolTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8B7C26B2C396EAE000A66D9 /* crystal_poolTests.swift */,
+			);
+			path = "crystal-poolTests";
+			sourceTree = "<group>";
+		};
+		D8B7C2742C396EAE000A66D9 /* crystal-poolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8B7C2752C396EAE000A66D9 /* crystal_poolUITests.swift */,
+				D8B7C2772C396EAE000A66D9 /* crystal_poolUITestsLaunchTests.swift */,
+			);
+			path = "crystal-poolUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8B7C2562C396EAD000A66D9 /* crystal-pool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8B7C27B2C396EAE000A66D9 /* Build configuration list for PBXNativeTarget "crystal-pool" */;
+			buildPhases = (
+				D8B7C2532C396EAD000A66D9 /* Sources */,
+				D8B7C2542C396EAD000A66D9 /* Frameworks */,
+				D8B7C2552C396EAD000A66D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "crystal-pool";
+			productName = "crystal-pool";
+			productReference = D8B7C2572C396EAD000A66D9 /* crystal-pool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8B7C2662C396EAE000A66D9 /* crystal-poolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8B7C27E2C396EAE000A66D9 /* Build configuration list for PBXNativeTarget "crystal-poolTests" */;
+			buildPhases = (
+				D8B7C2632C396EAE000A66D9 /* Sources */,
+				D8B7C2642C396EAE000A66D9 /* Frameworks */,
+				D8B7C2652C396EAE000A66D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8B7C2692C396EAE000A66D9 /* PBXTargetDependency */,
+			);
+			name = "crystal-poolTests";
+			productName = "crystal-poolTests";
+			productReference = D8B7C2672C396EAE000A66D9 /* crystal-poolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8B7C2702C396EAE000A66D9 /* crystal-poolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8B7C2812C396EAE000A66D9 /* Build configuration list for PBXNativeTarget "crystal-poolUITests" */;
+			buildPhases = (
+				D8B7C26D2C396EAE000A66D9 /* Sources */,
+				D8B7C26E2C396EAE000A66D9 /* Frameworks */,
+				D8B7C26F2C396EAE000A66D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8B7C2732C396EAE000A66D9 /* PBXTargetDependency */,
+			);
+			name = "crystal-poolUITests";
+			productName = "crystal-poolUITests";
+			productReference = D8B7C2712C396EAE000A66D9 /* crystal-poolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8B7C24F2C396EAD000A66D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D8B7C2562C396EAD000A66D9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D8B7C2662C396EAE000A66D9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D8B7C2562C396EAD000A66D9;
+					};
+					D8B7C2702C396EAE000A66D9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D8B7C2562C396EAD000A66D9;
+					};
+				};
+			};
+			buildConfigurationList = D8B7C2522C396EAD000A66D9 /* Build configuration list for PBXProject "crystal-pool" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8B7C24E2C396EAD000A66D9;
+			productRefGroup = D8B7C2582C396EAD000A66D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8B7C2562C396EAD000A66D9 /* crystal-pool */,
+				D8B7C2662C396EAE000A66D9 /* crystal-poolTests */,
+				D8B7C2702C396EAE000A66D9 /* crystal-poolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8B7C2552C396EAD000A66D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B7C2622C396EAE000A66D9 /* Preview Assets.xcassets in Resources */,
+				D8B7C25F2C396EAE000A66D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B7C2652C396EAE000A66D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B7C26F2C396EAE000A66D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8B7C2532C396EAD000A66D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B7C25D2C396EAD000A66D9 /* ContentView.swift in Sources */,
+				D8B7C25B2C396EAD000A66D9 /* crystal_poolApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B7C2632C396EAE000A66D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B7C26C2C396EAE000A66D9 /* crystal_poolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B7C26D2C396EAE000A66D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B7C2762C396EAE000A66D9 /* crystal_poolUITests.swift in Sources */,
+				D8B7C2782C396EAE000A66D9 /* crystal_poolUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8B7C2692C396EAE000A66D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8B7C2562C396EAD000A66D9 /* crystal-pool */;
+			targetProxy = D8B7C2682C396EAE000A66D9 /* PBXContainerItemProxy */;
+		};
+		D8B7C2732C396EAE000A66D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8B7C2562C396EAD000A66D9 /* crystal-pool */;
+			targetProxy = D8B7C2722C396EAE000A66D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D8B7C2792C396EAE000A66D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8B7C27A2C396EAE000A66D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8B7C27C2C396EAE000A66D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"crystal-pool/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "savonarolalabs.crystal-pool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8B7C27D2C396EAE000A66D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"crystal-pool/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "savonarolalabs.crystal-pool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8B7C27F2C396EAE000A66D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "savonarolalabs.crystal-poolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crystal-pool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/crystal-pool";
+			};
+			name = Debug;
+		};
+		D8B7C2802C396EAE000A66D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "savonarolalabs.crystal-poolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crystal-pool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/crystal-pool";
+			};
+			name = Release;
+		};
+		D8B7C2822C396EAE000A66D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "savonarolalabs.crystal-poolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "crystal-pool";
+			};
+			name = Debug;
+		};
+		D8B7C2832C396EAE000A66D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "savonarolalabs.crystal-poolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "crystal-pool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8B7C2522C396EAD000A66D9 /* Build configuration list for PBXProject "crystal-pool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B7C2792C396EAE000A66D9 /* Debug */,
+				D8B7C27A2C396EAE000A66D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8B7C27B2C396EAE000A66D9 /* Build configuration list for PBXNativeTarget "crystal-pool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B7C27C2C396EAE000A66D9 /* Debug */,
+				D8B7C27D2C396EAE000A66D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8B7C27E2C396EAE000A66D9 /* Build configuration list for PBXNativeTarget "crystal-poolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B7C27F2C396EAE000A66D9 /* Debug */,
+				D8B7C2802C396EAE000A66D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8B7C2812C396EAE000A66D9 /* Build configuration list for PBXNativeTarget "crystal-poolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B7C2822C396EAE000A66D9 /* Debug */,
+				D8B7C2832C396EAE000A66D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8B7C24F2C396EAD000A66D9 /* Project object */;
+}
