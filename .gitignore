@@ -1,0 +1,104 @@
+# Xcode
+DerivedData/
+.idea/
+*.xcworkspace
+xcuserdata/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Package.resolved
+*.xcodeproj/project.xcworkspace/
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.xcworkspace
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+*.ipp
+*.lock
+
+# Archives
+*.xcarchive
+
+# App specific
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swm
+*.swx
+*.swo
+*.DS_Store
+
+# Logs
+*.log
+
+# Generated source
+*.gcda
+*.gcno
+
+# Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/
+
+# Xcode 11
+__Generated/
+.swiftpm/
+Package.swift
+Package.resolved
+Package.pins
+
+# Xcode custom templates
+.swift-template/
+
+# SourceKit
+.sourcekitten/
+
+# AppCode
+.idea/
+.idea_modules/
+.idea/.idea_modules/
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/modules.xml/
+.idea/workspace.xml
+.idea/dictionaries
+.idea/shelf/
+.idea/inspectionProfiles/
+
+# SPM
+.build/
+.swiftpm/
+.workspace/
+.swiftpm/xcode/package.xcworkspace/
+.swiftpm/xcode/xcshareddata/
+
+# Other
+*.ipa
+*.dSYM.zip
+*.dSYM

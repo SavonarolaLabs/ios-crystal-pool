@@ -1,21 +1,39 @@
-//
-//  ContentView.swift
-//  crystal-pool
-//
-//  Created by Ivan Krishanik on 06.07.24.
-//
-
 import SwiftUI
+import UIKit
+import PDFKit
+import CoreImage.CIFilterBuiltins
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            Button(action: {
+                // Action for first button
+            }) {
+                QRCodeView()
+            }
+            .tabItem {
+                Image(systemName: "wallet.pass.fill")
+                Text("Wallet")
+            }
+            
+            NavigationView {
+                MarketsView()
+            }
+            .tabItem {
+                Image(systemName: "chart.xyaxis.line")
+                Text("Markets")
+            }
+            
+            Button(action: {
+                // Action for third button
+            }) {
+                SettingsView()
+            }
+            .tabItem {
+                Image(systemName: "gearshape.fill")
+                Text("Settings")
+            }
         }
-        .padding()
     }
 }
 

@@ -1,9 +1,5 @@
-//
 //  crystal_poolTests.swift
 //  crystal-poolTests
-//
-//  Created by Ivan Krishanik on 06.07.24.
-//
 
 import XCTest
 @testable import crystal_pool

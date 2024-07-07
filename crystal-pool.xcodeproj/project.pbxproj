@@ -14,6 +14,10 @@
 		D8B7C26C2C396EAE000A66D9 /* crystal_poolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7C26B2C396EAE000A66D9 /* crystal_poolTests.swift */; };
 		D8B7C2762C396EAE000A66D9 /* crystal_poolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7C2752C396EAE000A66D9 /* crystal_poolUITests.swift */; };
 		D8B7C2782C396EAE000A66D9 /* crystal_poolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7C2772C396EAE000A66D9 /* crystal_poolUITestsLaunchTests.swift */; };
+		D8B7C2852C3AA598000A66D9 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7C2842C3AA598000A66D9 /* Token.swift */; };
+		D8B7C2872C3B0AAA000A66D9 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7C2862C3B0AAA000A66D9 /* QRCodeView.swift */; };
+		D8B7C2892C3B0D69000A66D9 /* MarketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7C2882C3B0D69000A66D9 /* MarketsView.swift */; };
+		D8B7C28D2C3B0EB9000A66D9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7C28C2C3B0EB9000A66D9 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		D8B7C2712C396EAE000A66D9 /* crystal-poolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "crystal-poolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B7C2752C396EAE000A66D9 /* crystal_poolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crystal_poolUITests.swift; sourceTree = "<group>"; };
 		D8B7C2772C396EAE000A66D9 /* crystal_poolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crystal_poolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8B7C2842C3AA598000A66D9 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		D8B7C2862C3B0AAA000A66D9 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		D8B7C2882C3B0D69000A66D9 /* MarketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsView.swift; sourceTree = "<group>"; };
+		D8B7C28C2C3B0EB9000A66D9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,8 @@
 		D8B7C24E2C396EAD000A66D9 = {
 			isa = PBXGroup;
 			children = (
+				D8B7C28C2C3B0EB9000A66D9 /* SettingsView.swift */,
+				D8B7C2882C3B0D69000A66D9 /* MarketsView.swift */,
 				D8B7C2592C396EAD000A66D9 /* crystal-pool */,
 				D8B7C26A2C396EAE000A66D9 /* crystal-poolTests */,
 				D8B7C2742C396EAE000A66D9 /* crystal-poolUITests */,
@@ -96,8 +106,10 @@
 			children = (
 				D8B7C25A2C396EAD000A66D9 /* crystal_poolApp.swift */,
 				D8B7C25C2C396EAD000A66D9 /* ContentView.swift */,
+				D8B7C2862C3B0AAA000A66D9 /* QRCodeView.swift */,
 				D8B7C25E2C396EAE000A66D9 /* Assets.xcassets */,
 				D8B7C2602C396EAE000A66D9 /* Preview Content */,
+				D8B7C2842C3AA598000A66D9 /* Token.swift */,
 			);
 			path = "crystal-pool";
 			sourceTree = "<group>";
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B7C2872C3B0AAA000A66D9 /* QRCodeView.swift in Sources */,
+				D8B7C2852C3AA598000A66D9 /* Token.swift in Sources */,
 				D8B7C25D2C396EAD000A66D9 /* ContentView.swift in Sources */,
+				D8B7C28D2C3B0EB9000A66D9 /* SettingsView.swift in Sources */,
 				D8B7C25B2C396EAD000A66D9 /* crystal_poolApp.swift in Sources */,
+				D8B7C2892C3B0D69000A66D9 /* MarketsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
