@@ -82,8 +82,6 @@
 		D8B7C24E2C396EAD000A66D9 = {
 			isa = PBXGroup;
 			children = (
-				D8B7C28C2C3B0EB9000A66D9 /* SettingsView.swift */,
-				D8B7C2882C3B0D69000A66D9 /* MarketsView.swift */,
 				D8B7C2592C396EAD000A66D9 /* crystal-pool */,
 				D8B7C26A2C396EAE000A66D9 /* crystal-poolTests */,
 				D8B7C2742C396EAE000A66D9 /* crystal-poolUITests */,
@@ -104,6 +102,8 @@
 		D8B7C2592C396EAD000A66D9 /* crystal-pool */ = {
 			isa = PBXGroup;
 			children = (
+				D8B7C2882C3B0D69000A66D9 /* MarketsView.swift */,
+				D8B7C28C2C3B0EB9000A66D9 /* SettingsView.swift */,
 				D8B7C25A2C396EAD000A66D9 /* crystal_poolApp.swift */,
 				D8B7C25C2C396EAD000A66D9 /* ContentView.swift */,
 				D8B7C2862C3B0AAA000A66D9 /* QRCodeView.swift */,
